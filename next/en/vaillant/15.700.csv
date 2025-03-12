@@ -76,10 +76,6 @@ w,,,HolidayTemp,holiday temperature,,,b524,020100008200,value,,EXP,,°C,holiday 
 r,,,OutsideTempAvg,average outside temperature,,,b524,020000009500,value,,IGN:4,,,,value,,EXP,,°C,gerundete mittlere Außentemperatur (alle 3h aktualisiert)
 w,,,OutsideTempAvg,average outside temperature,,,b524,020100009500,value,,EXP,,°C,gerundete mittlere Außentemperatur (alle 3h aktualisiert)
 r,,,MaintenanceDue,maintenance due,,,b524,020000009600,value,,IGN:4,,,,value,,UCH,0=no;1=yes,,zeigt an ob die Wartung fällig ist
-r,,,HwcStorageTempTop,hwc storage temperature top,,,b524,020000009d00,value,,IGN:4,,,,value,,EXP,,°C,"Temp.fühler WW, oben"
-r,,,HwcStorageTempBottom,storage temperature bottom,,,b524,020000009e00,value,,IGN:4,,,,value,,EXP,,°C,"Temp.fühler WW, unten"
-r,,,HcStorageTempTop,hc storage temperature top,,,b524,020000009f00,value,,IGN:4,,,,value,,EXP,,°C,"Temp.fühler Hz, oben"
-r,,,HcStorageTempBottom,hc storage temperature bottom,,,b524,02000000a000,value,,IGN:4,,,,value,,EXP,,°C,"Temp.fühler Hz, unten"
 r,,,HwcOpMode,hwc operation mode,,,b524,020001000300,value,,IGN:4,,,,value,,UIN,0=off;1=auto;2=day;3=night,,operation mode of Hwc
 w,,,HwcOpMode,hwc operation mode,,,b524,020101000300,value,,UIN,0=off;1=auto;2=day;3=night,,operation mode of Hwc
 r,,,HwcTempDesired,hwc temperature desired,,,b524,020001000400,value,,IGN:4,,,,value,,EXP,,°C,setpoint of domestic hot water circuit
